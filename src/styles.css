@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4, h5{
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ----------------- Links social media ---------*/
+.share-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.share-link {
+    flex: 0 34%;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.share-link:hover {
+    color: white;
+}
+.bg-email {
+    background: #aeaeae;
+}
+.bg-github {
+    background: #323131;
+}
+.bg-twitter {
+    background: #2aa9e0;
+}
+.bg-linkedin {
+    background: #007ab5;
+}
+.bg-medium {
+    background: #14c767;
+}

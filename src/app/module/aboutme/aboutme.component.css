@@ -1,0 +1,27 @@
+a{
+    color: #111
+  }
+  
+ 
+  
+/* --------------------- Banner Home ------------*/
+.banner-home {
+  text-align: center;
+  height: 40vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */ 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-large {
+  width: 175px;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+  
+
+  
