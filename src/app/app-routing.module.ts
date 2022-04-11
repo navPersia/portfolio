@@ -24,6 +24,7 @@ const routes: Routes = [
   {path: 'project4', component: Project4Component},
   {path: 'wsapp', component: WsappComponent}, 
   {path: 'internship', component: HomeInternshipComponent},
+  {path: 'blog', component: BlogsComponent},
   //moet laatst blijven staan.
 //   {path: '**', component: Error404Component},
 ];
