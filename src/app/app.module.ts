@@ -6,15 +6,15 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './module/home/home.component';
 import { ContactComponent } from './module/contact/contact.component';
-import { BlogsComponent } from './module/blogs/blogs.component';
-import { ProjectsComponent } from './module/projects/projects.component';
+import { ProjectsHomeComponent } from './module/projects/projects-home/projects-home.component';
 import { AboutmeComponent } from './module/aboutme/aboutme.component';
 import { UnderconstructionComponent } from './module/underconstruction/underconstruction.component';
-import { AquafunComponent } from './module/aquafun/aquafun.component';
-import { Project4Component } from './module/project4/project4.component';
-import { WsappComponent } from './module/wsapp/wsapp.component';
+import { AquafunComponent } from './module/projects/aquafun/aquafun.component';
+import { Project4Component } from './module/projects/project4/project4.component';
+import { WsappComponent } from './module/projects/wsapp/wsapp.component';
 import { HomeInternshipComponent } from './module/internship/home-internship/home-internship.component';
-import { BlogComponent } from './module/blog/blog.component';
+import { MicroservicesComponent } from './module/projects/microservices/microservices.component';
+import { WorkoutComponent } from './module/projects/workout/workout.component';
 
 @NgModule({
   declarations: [
@@ -23,15 +23,15 @@ import { BlogComponent } from './module/blog/blog.component';
     FooterComponent,
     HomeComponent,
     ContactComponent,
-    BlogsComponent,
-    ProjectsComponent,
+    ProjectsHomeComponent,
     AboutmeComponent,
     UnderconstructionComponent,
     AquafunComponent,
     Project4Component,
     WsappComponent,
     HomeInternshipComponent,
-    BlogComponent
+    MicroservicesComponent,
+    WorkoutComponent,
   ],
   imports: [
     BrowserModule,

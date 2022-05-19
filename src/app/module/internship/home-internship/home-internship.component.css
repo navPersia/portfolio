@@ -68,3 +68,37 @@
   
   .fw-semibold { font-weight: 600; }
   .lh-tight { line-height: 1.25; }
+
+  .youtube-responsive {
+    width: 100%; 
+    object-fit: contain;
+  }
+
+  
+  @media only screen and (max-width: 600px) {.youtube-responsive-height {
+    height: 239px;
+  };}
+
+  @media only screen and (min-width: 430px) {.youtube-responsive-height {
+    height: 280px;
+  };}
+  @media only screen and (min-width: 485px) {.youtube-responsive-height {
+    height: 350px;
+  };}
+  @media only screen and (min-width: 768px) {.youtube-responsive-height {
+    height: 435px;
+  };}
+  @media only screen and (min-width: 992px) {.youtube-responsive-height {
+    height: 300px;
+  };}
+
+  @media only screen and (min-width: 992px) {.youtube-responsive-height {
+    height: 370px;
+  };}
+  @media only screen and (min-width: 1400px) {.youtube-responsive-height {
+    height: 410px;
+  };}
+
+  @media only screen and (min-width: 1808px) {.youtube-responsive-height {
+    height: 440px;
+  };}
