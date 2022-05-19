@@ -49,13 +49,13 @@
         font-weight: 400;
         letter-spacing: -0.25px;
         margin-bottom: 3rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif !important;
     
     }
     
     .card-content__text {
         font-size: 1.1em;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif !important;
         letter-spacing: 0.5px;
         line-height: 1.8em;
         margin-bottom: 3rem;
@@ -73,7 +73,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: 'Poppins';
+        font-family: 'Poppins' !important;
         letter-spacing: 1px;
         font-size: 1.1em;
         font-weight: 600;
