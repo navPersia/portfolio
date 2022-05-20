@@ -9,6 +9,8 @@ import { Project4Component } from './module/projects/project4/project4.component
 import { ProjectsHomeComponent } from './module/projects/projects-home/projects-home.component';
 import { UnderconstructionComponent } from './module/underconstruction/underconstruction.component';
 import { WsappComponent } from './module/projects/wsapp/wsapp.component';
+import { MicroservicesComponent } from './module/projects/microservices/microservices.component';
+import { WorkoutComponent } from './module/projects/workout/workout.component';
 
 const routes: Routes = [
   // { path: '', component:  },
@@ -21,7 +23,10 @@ const routes: Routes = [
   {path: 'underconstruction', component: UnderconstructionComponent},
   {path: 'project4', component: Project4Component},
   {path: 'wsapp', component: WsappComponent}, 
-  {path: 'internship', component: HomeInternshipComponent},
+  { path: 'internship', component: HomeInternshipComponent },
+  { path: 'microservices', component: MicroservicesComponent },
+  { path: 'workout', component: WorkoutComponent },
+  
   //moet laatst blijven staan.
 //   {path: '**', component: Error404Component},
 ];

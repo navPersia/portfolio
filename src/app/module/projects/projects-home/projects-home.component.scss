@@ -1,0 +1,100 @@
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+$breakpoint-tablet: 900px;
+$breakpoint-phone: 375px;
+
+#project-conatainer{
+    #main-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $Very-Dark-Blue;
+      
+        #card-body {
+          display: flex;
+          align-items: center;
+        }
+
+        #card-1 {
+            border-top: 3px solid $Cyan;
+      
+            &:hover {
+              background: linear-gradient(to bottom, rgba($Cyan, 0.5), transparent);
+              transform: scale(1.05);
+              box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+            }
+          }
+      
+          #card-2 {
+            border-top: 3px solid $Red;
+      
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba($Red, 0.4) 5%,
+                transparent 90%
+              );
+              transform: scale(1.05);
+              box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+            }
+          }
+      
+          #card-3 {
+            border-top: 3px solid $Orange;
+      
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba($Orange, 0.5),
+                transparent 85%
+              );
+              transform: scale(1.05);
+              box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+            }
+          }
+      
+          #card-4 {
+            border-top: 3px solid $Blue;
+      
+            &:hover {
+              background: linear-gradient(to bottom, rgba($Blue, 0.5), transparent);
+              transform: scale(1.05);
+              box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+            }
+          }
+      
+          .card {
+            background: white;
+            margin: 1rem 0.8rem;
+            padding: 1.5rem;
+            border-radius: 4px;
+            box-shadow: 0px 9px 20px 1px rgba(0, 0, 0, 0.1);
+            transition: 0.5s all;
+      
+            .card-title {
+              font-weight: 600;
+              margin-bottom: 15px;
+              padding-top: 0.3rem;
+            }
+      
+            #card-cont {
+              display: flex;
+              justify-content: flex-end;
+      
+              .card-img {
+                padding-top: 20px;
+                width: 25%;
+              }
+            }
+          }
+      }
+}
