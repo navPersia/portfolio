@@ -16,19 +16,19 @@ const routes: Routes = [
   // { path: '', component:  },
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
-  {path: 'contact', component: ContactComponent},
-  {path: 'projects', component: ProjectsHomeComponent},
-  {path: 'aboutme', component: AboutmeComponent},
-  {path: 'aquafun', component: AquafunComponent},
-  {path: 'underconstruction', component: UnderconstructionComponent},
-  {path: 'project4', component: Project4Component},
-  {path: 'wsapp', component: WsappComponent}, 
+  { path: 'contact', component: ContactComponent},
+  { path: 'projects', component: ProjectsHomeComponent},
+  { path: 'aboutme', component: AboutmeComponent},
+  { path: 'aquafun', component: AquafunComponent},
+  { path: 'underconstruction', component: UnderconstructionComponent},
+  { path: 'project4', component: Project4Component},
+  { path: 'wsapp', component: WsappComponent}, 
   { path: 'internship', component: HomeInternshipComponent },
   { path: 'microservices', component: MicroservicesComponent },
   { path: 'workout', component: WorkoutComponent },
   
   //moet laatst blijven staan.
-//   {path: '**', component: Error404Component},
+  {path: '**', component: HomeComponent},
 ];
 
 @NgModule({
