@@ -28,7 +28,7 @@ const routes: Routes = [
   { path: 'workout', component: WorkoutComponent },
   
   //moet laatst blijven staan.
-  {path: '**', component: HomeComponent},
+  { path: '**', component: HomeComponent},
 ];
 
 @NgModule({

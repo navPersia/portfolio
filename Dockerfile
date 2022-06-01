@@ -1,4 +1,5 @@
 #stage 1
+# FROM arm64v8/node:latest as node
 FROM node:latest as node
 WORKDIR /app
 COPY . .
