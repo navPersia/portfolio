@@ -15,15 +15,12 @@ jobs:
         id: buildx
         with:
           install: true
+          platforms: linux/amd64,linux/arm64
 
       - 
         name: Docker login
         run: docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASSWORD }}
 
       - 
-        name: Build 
-        run: docker buildx build --platform linux/amd64,linux/arm64 ${{ secrets.DOCKER_USER }}/portfolio .
-
-      -
-        name: Push
-        run: docker push ${{ secrets.DOCKER_USER }}/portfolio:latest
+        name: Build and Push
+        run: docker build -t ${{ secrets.DOCKER_USER }}/portfolio:latest --push .
